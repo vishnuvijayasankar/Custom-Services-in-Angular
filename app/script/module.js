@@ -1,0 +1,1 @@
+var recordCtrlApp = angular.module('RecordCtrlApp', []);
