@@ -1,14 +1,14 @@
 [
     {
         "state": "Kerala",
-        "price": 22,
+        "price": 80,
         "tax": 5,
         "include": false
     },
     {
         "state": "Goa",
-        "price": 32,
-        "tax": 8,
+        "price": 60,
+        "tax": 2,
         "include": false
     }
 ]

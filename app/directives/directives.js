@@ -13,7 +13,7 @@ recordCtrlApp.directive('addData', function() {
 
  
 
-  
+   
 // Custom Directive for draggable box
 recordCtrlApp.directive('myDraggable', ['$document', function($document) {
     return {

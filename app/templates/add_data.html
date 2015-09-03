@@ -2,8 +2,8 @@
 <h1>Add Data</h1>
         <form>
             <div class="field">
-                <label for="state">Item: </label>
-                <input id="state" type="text" placeholder="Item"  ng-model="records.newState">
+                <label for="state">State: </label>
+                <input id="state" type="text" placeholder="State"  ng-model="records.newState">
             </div>
             <div class="field">
                 <label for="price">Price: </label>
@@ -16,7 +16,6 @@
             <div class="action">
                 <button id="add_button" ng-hide="edit" type="submit" ng-click="Add()">Add</button>
                 <button ng-show = "edit" ng-click="Update()">Update</button>
-                <!-- <button ng-click="Reset()">Reset</button> -->
             </div>
         </form>
     </div>
