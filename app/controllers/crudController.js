@@ -9,7 +9,7 @@ recordCtrlApp.controller('RecordCtrl', function($scope,$http,StyleService,CRUDSe
 
         // default data loaded from json
         $http.get('assets/angular.json').success(function(data){
-            $scope.records = $scope.records || data;
+            $scope.records = data;
         });
        
         // Reset new data model
